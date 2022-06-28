@@ -1,0 +1,4 @@
+if __name__ == "__main__":
+    import Hidden_4
+
+    __all__.extend(dir(Hidden_4))
