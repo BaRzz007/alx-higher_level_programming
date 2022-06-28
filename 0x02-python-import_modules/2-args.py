@@ -3,9 +3,9 @@ if __name__ == "__main__":
     from sys import argv
 
     n_args = len(argv) - 1
-    
+
     if n_args == 0:
-        print("{:d} argument.".format(n_args))
+        print("{:d} arguments.".format(n_args))
     elif n_args == 1:
         print("{:d} argument:".format(n_args))
     else:
@@ -16,4 +16,3 @@ if __name__ == "__main__":
         for arg in argv[1:]:
             print("{:d}: {}".format(n, arg))
             n += 1
-            
