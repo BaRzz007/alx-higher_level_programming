@@ -16,3 +16,11 @@ development => pay more for maintenance or correction later. Early
 testing saves both time and cost in many aspects. However, reducing the 
 cost without testing may result in improper design of a software 
 application, rendering the product useless.
+* **“Testing is Time-Consuming”**: Testing is never a time-consuming process.
+However diagnosing and fixing the errors identified during proper testing is 
+a time-consuming but productive activity.
+* “Only Fully Developed Products are Tested”: No doubt, testing depends on the 
+source code but reviewing requirements and developing test cases is independent 
+from the developed code. However, iterative or incremental approaches to a 
+development life cycle model may reduce the requirement of testing on the 
+fully developed software.
