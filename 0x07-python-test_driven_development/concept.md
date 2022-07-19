@@ -11,8 +11,8 @@ related terminologies.
 
 ### Bad reputation
 
-	* **“Testing is Too Expensive”**: Pay less for testing during software
-	development => pay more for maintenance or correction later. Early 
-	testing saves both time and cost in many aspects. However, reducing the 
-	cost without testing may result in improper design of a software 
-	application, rendering the product useless.
+* **“Testing is Too Expensive”**: Pay less for testing during software
+development => pay more for maintenance or correction later. Early 
+testing saves both time and cost in many aspects. However, reducing the 
+cost without testing may result in improper design of a software 
+application, rendering the product useless.
