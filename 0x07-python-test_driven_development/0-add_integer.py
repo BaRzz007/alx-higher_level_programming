@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module contains function that add 2 numbers"""
 
+
 def add_integer(a, b=98):
     """Function adds 2 numbers
     Args:
