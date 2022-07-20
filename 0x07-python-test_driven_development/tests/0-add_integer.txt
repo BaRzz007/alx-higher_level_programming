@@ -1,0 +1,28 @@
+0-add_integer module
+====================
+
+Usage:
+------
+Import ``add_integer`` from ``0-add_integer`` module:
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+	>>> add_integer(2)
+	100
+	>>> add_integer(-1)
+	97
+	>>> add_integer(0)
+	98
+	>>> add_integer(2, 3)
+	5
+	>>> add_integer(-2, 3)
+	1
+	>>> add_integer(2, -3)
+	-1
+	>>> add_integer('2')
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+	>>> add_integer(2, '3')
+	Traceback (most recent call last):
+	...
+	TypeError: b must be an integer
