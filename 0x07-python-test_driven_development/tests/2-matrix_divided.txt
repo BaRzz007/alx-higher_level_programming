@@ -83,4 +83,4 @@ Raises TypeError if matrix contains non integer/float:
 
 division by infinity results in a zero matrix:
 	>>> matrix_divided(matrix, float('inf'))
-	[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+	[[0.0, 0.0, 0.0], [-0.0, 0.0, 0.0]]
