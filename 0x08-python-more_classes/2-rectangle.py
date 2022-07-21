@@ -55,12 +55,20 @@ class Rectangle:
 
     def area(self):
         """Area instance method
-            Return: area of the calling Rectangle instance
+            Return: area of the calling Rectangle instance.
+                    if either height or width is zero area() returns 0
+                    as the resulting shape will only be a line
         """
+        if self.height == 0 or self.width == 0:
+            return 0
         return self.height * self.width
 
     def perimeter(self):
         """Perimeter instance method
-            Return: perimeter of the calling Rectangle instance
+            Return: perimeter of the calling Rectangle instance.
+                    If either height or width is zero perimeter() returns 0
+                    as the resulting shape will only be a straight line.
         """
+        if self.height == 0 or self.width == 0:
+            return 0
         return 2 * (self.height + self.width)
