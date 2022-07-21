@@ -40,13 +40,13 @@ class Rectangle:
         """
         return self.__height
     @height.setter
-    def heigth(self, value):
+    def height(self, value):
         """height setter method.
             Args:
                 value(int): sets the height of Rectangele instance
         """
         if type(value) is not int:
-            raise TypeError("height must be circle")
+            raise TypeError("height must be an integer")
         if value < 0:
-            raise ValueError("height must be >=0")
+            raise ValueError("height must be >= 0")
         self.__height = value
