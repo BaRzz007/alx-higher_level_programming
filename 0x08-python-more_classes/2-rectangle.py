@@ -59,8 +59,6 @@ class Rectangle:
                     if either height or width is zero area() returns 0
                     as the resulting shape will only be a line
         """
-        if self.height == 0 or self.width == 0:
-            return 0
         return self.height * self.width
 
     def perimeter(self):
