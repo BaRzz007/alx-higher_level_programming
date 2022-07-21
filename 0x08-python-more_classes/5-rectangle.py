@@ -87,3 +87,7 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         return "Rectangle({}, {})".format(self.width, self.height)
+
+    def __del__(self):
+        """prints message when an instance is deleted"""
+        print("Bye rectangle...")
