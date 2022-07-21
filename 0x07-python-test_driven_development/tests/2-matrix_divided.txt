@@ -80,3 +80,7 @@ Raises TypeError if matrix contains non integer/float:
 	Traceback (most recent call last):
 	...
 	TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+division by infinity results in a zero matrix:
+	>>> matrix_divided(matrix, float('inf'))
+	[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
