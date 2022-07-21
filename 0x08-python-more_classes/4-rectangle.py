@@ -81,3 +81,8 @@ class Rectangle:
                 rect.append('\n')
             [rect.append('#') for j in range(self.width)]
         return "".join(rect)
+
+    def __repr__(self):
+        """Defines string representation of Rectangle"""
+
+        return "Rectangel({}, {})".format(self.width, self.height)
