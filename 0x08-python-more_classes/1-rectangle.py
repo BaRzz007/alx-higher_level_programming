@@ -4,7 +4,7 @@
 
 class Rectangle:
     """Rectangle class"""
-    
+
     def __init__(self, width=0, height=0):
         """Initializes a Rectangle instance
 
@@ -21,6 +21,7 @@ class Rectangle:
             Return: width of the Rectangle
         """
         return self.__width
+
     @width.setter
     def width(self, value):
         """width setter method.
@@ -39,6 +40,7 @@ class Rectangle:
             Return: height of the Rectangle
         """
         return self.__height
+
     @height.setter
     def height(self, value):
         """height setter method.
