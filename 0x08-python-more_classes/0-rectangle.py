@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""Rectangle class"""
+"""Module contains Rectangle class"""
 
 
 class Rectangle:
-    """Empty Rectangle class"""
+    """Rectangle class"""
     pass
+
