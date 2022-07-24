@@ -82,7 +82,7 @@ class Rectangle:
         for i in range(self.height):
             if i > 0:
                 rect.append('\n')
-            [rect.append(self.print_symbol) for j in range(self.width)]
+            [rect.append(str(self.print_symbol)) for j in range(self.width)]
         return "".join(rect)
 
     def __repr__(self):
