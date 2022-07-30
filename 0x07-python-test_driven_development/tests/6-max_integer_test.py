@@ -13,8 +13,9 @@ class TestMaxInteger(unitttest.TestCase):
         """function to test max_integer
         """
         self.assertEqual(max_integer([1, 2, 3, 4]), 4)
-        self.assertEquals(max_integer([1, 2, 4, 3, 0]), 4)
-        self.assertEqual(max_integers([1, 2, -4, 3, -5]), 3)
+        self.assertEquals(max_integer([4, 1, 2, 3, 0]), 4)
+        self.assertEqual(max_integer([1, 2, -4, 3, -5]), 3)
+        self.assertEqual(max_integer([-1, -2, -3, -4]), -1)
         self.assertEquals(max_integer([]), None)
         with self.assertRaises(TypeError):
             max_integer("string")
