@@ -23,5 +23,5 @@ class TestMaxInteger(unitttest.TestCase):
             max_integer([True])
             
 
-if __name__ == __main__:
+if __name_ == '__main__':
     unittest.main()
